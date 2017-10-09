@@ -1,6 +1,7 @@
 FROM python:{{cookiecutter.python_version}}
 
 ENV TZ 'Asia/Shanghai'
+ENV PYTHONUNBUFFERED '0'
 
 WORKDIR /app
 
